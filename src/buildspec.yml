@@ -14,9 +14,9 @@ Phase:
     build:
       commands:
          - echo Building app
-         - npm build
-         - echo Run tests
          - npm test
+         - echo Run tests
+         - npm run build
 artifacts:
     files:
       - "**/*"
