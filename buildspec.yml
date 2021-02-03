@@ -7,7 +7,7 @@ Phases:
       commands:
          - echo installing Node14
          - apt install curl
-         - apt install -y nodejs
+         - apt-get install -y nodejs
     post_build:
       commands:
          - npm start
