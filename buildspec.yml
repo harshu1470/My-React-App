@@ -5,7 +5,6 @@ run-as: root
 Phases:
     install:
       commands:
-         - apt-get update
          - echo installing Node14
          - apt install curl
          - curl -sL https://deb.nodesource.com/setup_14.x |  bash -
