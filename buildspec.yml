@@ -7,7 +7,7 @@ Phases:
       commands:
          - echo installing Node14
          - apt install curl
-         - curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+         - curl -sL https://deb.nodesource.com/setup_14.x | bash -
          - apt install -y nodejs
     post_build:
       commands:
