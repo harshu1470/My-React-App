@@ -4,6 +4,8 @@ run-as: root
 
 Phases:
     install:
+      runtime-versions:
+         nodejs: 14
       commands:
          - echo installing Node14
          - apt install curl
