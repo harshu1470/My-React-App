@@ -10,13 +10,10 @@ Phases:
          - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
          - curl -sL https://deb.nodesource.com/setup_14.x | bash -
          - apt-get install -y nodejs nodejs-legacy
-    post_build:
-      commands:
-         - npm start
     build:
       commands:
          - echo Building app
-         - npm build
+         - npm run build
          - echo Run tests
          - npm test
 artifacts:
